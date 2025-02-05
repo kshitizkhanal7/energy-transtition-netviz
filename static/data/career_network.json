@@ -1,0 +1,28 @@
+{
+    "nodes": [
+        {"id": "auto_mechanic", "type": "traditional", "salary": 52000},
+        {"id": "hvac_technician", "type": "traditional", "salary": 48000},
+        {"id": "electrician", "type": "traditional", "salary": 55000},
+        {"id": "construction_worker", "type": "traditional", "salary": 42000},
+        {"id": "oil_rig_worker", "type": "traditional", "salary": 58000},
+        {"id": "ev_charging_specialist", "type": "clean_energy", "salary": 48000},
+        {"id": "solar_installer", "type": "clean_energy", "salary": 56000},
+        {"id": "wind_turbine_tech", "type": "clean_energy", "salary": 72000},
+        {"id": "battery_systems_tech", "type": "clean_energy", "salary": 75000},
+        {"id": "smart_grid_specialist", "type": "clean_energy", "salary": 82000},
+        {"id": "renewable_project_manager", "type": "clean_energy", "salary": 85000}
+    ],
+    "links": [
+        {"source": "auto_mechanic", "target": "ev_charging_specialist", "similarity": 2.8},
+        {"source": "ev_charging_specialist", "target": "battery_systems_tech", "similarity": 2.6},
+        {"source": "hvac_technician", "target": "solar_installer", "similarity": 3.1},
+        {"source": "electrician", "target": "solar_installer", "similarity": 3.4},
+        {"source": "electrician", "target": "wind_turbine_tech", "similarity": 3.2},
+        {"source": "electrician", "target": "smart_grid_specialist", "similarity": 2.4},
+        {"source": "oil_rig_worker", "target": "wind_turbine_tech", "similarity": 2.8},
+        {"source": "oil_rig_worker", "target": "renewable_project_manager", "similarity": 1.9},
+        {"source": "construction_worker", "target": "solar_installer", "similarity": 1.8},
+        {"source": "battery_systems_tech", "target": "smart_grid_specialist", "similarity": 2.5},
+        {"source": "smart_grid_specialist", "target": "renewable_project_manager", "similarity": 2.3}
+    ]
+}
