@@ -1,31 +1,6 @@
-your-repo/
-   ├── index.html
-   ├── static/
-   │   ├── css/
-   │   │   └── styles.css
-   │   ├── data/
-   │   │   └── career_network.json
-   │   └── js/
-   │       └── network.js
-   └── README.md
-   ```
-3. Enable GitHub Pages:
-   - Go to repository Settings
-   - Navigate to "Pages" section
-   - Under "Branch", select "main" and "/(root)"
-   - Click Save
+## About
 
-Your site will be available at: `https://[username].github.io/[repository-name]/`
-
-## Local Development
-To test locally:
-1. Open terminal in project directory
-2. Start a local server:
-   ```bash
-   # Using Python 3
-   python -m http.server 8000
-   # Then open http://localhost:8000 in your browser
-   ```
+This interactive visualization demonstrates potential occupational transition pathways for retraining into clean energy occupations. Example data will be replaced by real world data soon. 
 
 ## Technologies Used
 - D3.js for visualization
