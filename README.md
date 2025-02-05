@@ -8,3 +8,6 @@ The visualization uses demo data for now, and will be real data based on a peer-
 Bootstrap
 D3.js
 Vanilla JS
+
+# Demonstration
+https://kshitizkhanal.com.np/energy-transtition-netviz/
