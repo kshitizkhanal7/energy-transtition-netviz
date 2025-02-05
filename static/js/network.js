@@ -2,7 +2,7 @@
 async function initializeVisualization() {
     try {
         // Update the path to be relative to the repository root
-        const response = await fetch('./static/data/career_network.json');
+        const response = await fetch('/energy-transtition-netviz/static/data/career_network.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
